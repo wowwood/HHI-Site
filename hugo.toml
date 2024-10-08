@@ -3,16 +3,16 @@ baseURL = "https://example.com"
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "en-gb"
 
 # The name of this wonderful theme ;-).
 theme = "hugo-scroll"
 
 # The browser tab name
-title = "Jane Doe - Nutrition Coach & Chef Consultant"
+title = "Hayden Home Improvements"
 
 # In order to add version information in the page's footer set to true.
-# enableGitInfo = true
+ enableGitInfo = true
 
 # enable emoji processing in Markdown (valid only for pure markdown content)
 enableEmoji = true
@@ -38,21 +38,21 @@ enableEmoji = true
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Jane Doe - Nutrition Coach & Chef Consultant"
+    title = "Hayden Home Improvements"
 
     # The "description" of your website. This is used in the meta data of your generated html.
     description = "Nutrition Coach & Chef Consultant"
 
     # Show a menu of languages available
-    language_menu = true
+    language_menu = false
 
     # Show also a language menu item for the current language, if false only
     # show the remaining languages
-    show_current_lang = true
+    show_current_lang = false
 
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "© Jane Doe"
+    copyright = "© Hayden Home Improvements<br>Hayden Home Improvements Ltd, a company registered in England and Wales, No. 13453802<br>62 Bartholomew Street, Newbury, Berkshire, RG14 7BE."
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
@@ -70,7 +70,7 @@ enableEmoji = true
     
     [params.footer]
     # Show contact icons for email/phone (if specified) in the footer of the page
-    showContactIcons = false
+    showContactIcons = true
 
     # Show links indicated with footer_menu and footer_menu_title in the footer of the page
     showFooterLinks = false
@@ -79,16 +79,28 @@ enableEmoji = true
         keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
 
     [[params.contacts]]
-        label = "phone"
-        value = "+49 1111 555555"
-        url = "tel:+49 1111 555555"
+        label = "Freephone"
+        value = "+44 (0)800 9871 871"
+        url = "tel:+44800 9871 871"
         icon = "fa fa-phone"
 
     [[params.contacts]]
-        label = "email"
-        value = "mail@janedoe.com"
-        url = "mailto:mail@janedoe.com"
+        label = "Mobile"
+        value = "+44 (0)7817 220 867"
+        url = "tel:+447817 220867"
+        icon = "fa fa-mobile"
+
+    [[params.contacts]]
+        label = "Email"
+        value = "info@haydenhomeimprovements.com"
+        url = "mailto:info@haydenhomeimprovements.com"
         icon = "fa fa-envelope"
+
+    [[params.contacts]]
+        label = "Facebook"
+        value = "Hayden Home Improvements"
+        url = "https://www.facebook.com/people/Hayden-Home-Improvements-LTD/100094528309009/"
+        icon = "fa fa-facebook"
 
     # Add additional contacts here!
     # [[params.contacts]]
@@ -99,13 +111,13 @@ enableEmoji = true
 
 # Define additional languages
 [languages]
-  [languages.en]
+   [languages.en-gb]
     weight = 10
     languageName = "English"
     contentDir = "content/en"
 
-  [languages.de]
-    title = "Erika Musterfrau - Ernährungshilfe & Kochberatung"
-    weight = 20
-    contentDir = "content/de"
-    languageName = "Deutsch"
+#  [languages.de]
+#    title = "Erika Musterfrau - Ernährungshilfe & Kochberatung"
+#    weight = 20
+#    contentDir = "content/de"
+#    languageName = "Deutsch"

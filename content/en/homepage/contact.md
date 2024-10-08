@@ -1,9 +1,9 @@
 ---
 title: "Contact"
-weight: 4
+weight: 20
 header_menu: true
 ---
 
 {{<contact_list>}}
 
-Let us get in touch!
+Please get in touch to discuss your project, big or small!
