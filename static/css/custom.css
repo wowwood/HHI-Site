@@ -1,6 +1,6 @@
 :root {
   /* === Cover / Landing area === grey - 5b5b5b*/
-  --cover-text-color: #000000;
+  --cover-text-color: #000000 ;
   /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
   --highlight: #b5b5b5;
   --highlight-contrast: var(--cover-text-color);
@@ -117,4 +117,8 @@ body {
 #site-head .blog-description {
     font-family: "Afacad Flux", sans-serif;
     font-size:4rem;
+}
+
+#header-arrow {
+  color: #ffffff;
 }
