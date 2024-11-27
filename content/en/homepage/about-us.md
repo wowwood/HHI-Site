@@ -14,8 +14,4 @@ You would have to .Resouces.GetMatch via custom shortcode.
 
 ##### Professional Experience
 
-Masters at getting your contraband thru airport security. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat lectus et magna placerat tincidunt. Nullam sit amet lectus vitae elit mollis rhoncus non eget lorem. Ut tempor sed dui quis volutpat.
-
-----
-
-In ultrices, est at lobortis pretium, magna quam mollis neque, id viverra odio est sit amet lorem. Mauris efficitur nunc vel lectus porttitor, sit amet sodales quam eleifend. Duis et felis ut mauris dignissim efficitur. Aliquam non sem eros. Integer elit ante, bibendum id hendrerit vitae, vestibulum eget risus. Nunc efficitur nisl in iaculis vestibulum.
+With over 30 years of professional experince, we have a wide range of skills to bring to the table. Providing a personal service to every customer is our top priority.

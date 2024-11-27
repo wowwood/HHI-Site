@@ -8,6 +8,10 @@ Home improvement company covering West Berkshire, including: Newbury, Thatcham a
 
 We offer a number of [services](services).
 
+> Lee is trustworthy, professional and keeps the job clean and tidy
+
+<i>Jon H.</i>
+
 > Lee is a solid chap who built my shed
 
 more text as a placeholder

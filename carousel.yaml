@@ -1,0 +1,9 @@
+images: 
+  - image: /images/slider/image1.webp
+    content_html: "1"
+  - image: /images/slider/image2.webp
+    content_html: "2"
+  - image: /images/slider/image3.webp
+    content_html: "3"
+  - image: /images/slider/image4.webp
+    content_html: "4"

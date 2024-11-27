@@ -10,13 +10,29 @@ You want it? We'll build it!
 
 ---
 
-### Sheds
+### Gardens & Outdoor
+
+#### Home Office
+
+#### Outbuildings
+
+#### Patio
+
+#### Outdoor Kitchen and Dining
 
 ![What a shed!](images/jm-shed.webp)
 
 Now this is dangerously close to being Gazebo.
 
-### Project Consulting
+### Indoor renovation
+
+#### Kitchens
+
+#### Bathrooms
+
+#### Living Areas
+
+#### Carpentry
 
 We consult and make stuff happen, drawing on years of experience in the industry.
 

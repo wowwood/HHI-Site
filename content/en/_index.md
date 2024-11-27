@@ -10,7 +10,7 @@ header_logo: "images/hhi-black-logomark.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "Hayden Home Improvements"
-header_subheadline: "<b>Builders</b>, <b>Designers</b> & <b>Project</b> Consultants"
+header_subheadline: "Local <b>Builders</b> & <b>Project</b> Consultancy"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
