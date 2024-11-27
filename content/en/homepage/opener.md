@@ -8,6 +8,28 @@ Home improvement company covering West Berkshire, including: Newbury, Thatcham a
 
 We offer a number of [services](services).
 
+## Testemonials
+
+> Lee is trustworthy, professional and keeps the job clean and tidy
+
+<i>Jon H.</i>
+
+
+> Lee is trustworthy, professional and keeps the job clean and tidy
+
+<i>Jon H.</i>
+
+
+> Lee is trustworthy, professional and keeps the job clean and tidy
+
+<i>Jon H.</i>
+
+
+> Lee is trustworthy, professional and keeps the job clean and tidy
+
+<i>Jon H.</i>
+
+
 > Lee is trustworthy, professional and keeps the job clean and tidy
 
 <i>Jon H.</i>

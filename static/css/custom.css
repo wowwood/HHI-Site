@@ -9,7 +9,7 @@
   --highlight-inverse-contrast: white;
 
   /* visual guard around title and description, when the feature is enabled */
-  --cover-title-and-description-guard-bg-color: rgba(255, 255, 255, 0.6);
+  --cover-title-and-description-guard-bg-color: rgba(255, 255, 255, 1);
   --cover-title-text-shadow: white 0px 0px 7px;
 
   /* === sticky top/left navigation menus === */
