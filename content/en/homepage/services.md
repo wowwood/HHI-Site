@@ -14,11 +14,11 @@ You want it? We'll build it!
 
 #### Home Office
 
-#### Outbuildings
+#### Outbuildings & Sheds
 
 #### Patio
 
-#### Outdoor Kitchen and Dining
+#### Outdoor Kitchen & Dining
 
 ![What a shed!](images/jm-shed.webp)
 
