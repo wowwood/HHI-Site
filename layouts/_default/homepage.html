@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <!-- Logo, title -->
+  <section class="logo_hp">
+    {{ with resources.Get .Params.header_logo }}<img alt="HHI logo" src="{{ .RelPermalink }}" />{{ end }}
+    <h1>Hayden Home Improvements</h1>
+    <h2>Local <b>Builders</b> & <b>Project</b> Consultancy</h2>
+  </section>
+
+  <section class="prose">
+    {{ .Content }}
+  </section>
+{{ end }}
