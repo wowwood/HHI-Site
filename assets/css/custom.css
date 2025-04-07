@@ -1,3 +1,10 @@
 body > footer > section:last-of-type {
     display: none;
 }
+
+.icons {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    padding: 8px;
+}
