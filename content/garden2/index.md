@@ -1,5 +1,5 @@
 ---
-title: owo?
+title: Simple garden steps
 sort_by: Params.weight
 resources:
   - src: garden2-done-1.jpeg
@@ -11,4 +11,5 @@ resources:
   - src: garden2-done-3.jpeg
     params:
       weight: 2
+      cover: true
 ---

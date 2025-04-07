@@ -1,22 +1,23 @@
 ---
-title: owo?
+title: New wooden fencing for a garden and patio
 sort_by: Params.weight
 resources:
-  - src: fencing1-done-1.jpeg
+  - src: fencing1-work-1.jpeg
     params:
       weight: 0
-  - src: fencing1-done-10.jpeg
+  - src: fencing1-work-2.jpeg
     params:
       weight: 1
-  - src: fencing1-done-11.jpeg
+  - src: fencing1-work-3.jpeg
     params:
       weight: 2
-  - src: fencing1-done-12.jpeg
+  - src: fencing1-work-4.jpeg
     params:
       weight: 3
-  - src: fencing1-done-13.jpeg
+  - src: fencing1-done-1.jpeg
     params:
       weight: 4
+      cover: true
   - src: fencing1-done-2.jpeg
     params:
       weight: 5
@@ -41,16 +42,16 @@ resources:
   - src: fencing1-done-9.jpeg
     params:
       weight: 12
-  - src: fencing1-work-1.jpeg
+  - src: fencing1-done-10.jpeg
     params:
       weight: 13
-  - src: fencing1-work-2.jpeg
+  - src: fencing1-done-11.jpeg
     params:
       weight: 14
-  - src: fencing1-work-3.jpeg
+  - src: fencing1-done-12.jpeg
     params:
       weight: 15
-  - src: fencing1-work-4.jpeg
+  - src: fencing1-done-13.jpeg
     params:
       weight: 16
 ---
