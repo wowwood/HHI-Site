@@ -1,17 +1,18 @@
 ---
-title: owo?
+title: A basic modern kitchen
 sort_by: Params.weight
 resources:
-  - src: kitchen2-done-1.jpeg
+  - src: kitchen2-work-1.jpeg
     params:
       weight: 0
-  - src: kitchen2-done-2.jpeg
+  - src: kitchen2-done-1.jpeg
     params:
       weight: 1
-  - src: kitchen2-done-3.jpeg
+      cover: true
+  - src: kitchen2-done-2.jpeg
     params:
       weight: 2
-  - src: kitchen2-work-1.jpeg
+  - src: kitchen2-done-3.jpeg
     params:
       weight: 3
 ---
