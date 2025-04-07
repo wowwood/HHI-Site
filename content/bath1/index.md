@@ -1,5 +1,5 @@
 ---
-title: Asdf!
+title: A modern bathroom design
 sort_by: Params.weight
 resources:
   - src: bath1-work-1.jpeg
