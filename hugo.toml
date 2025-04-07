@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://haydenhomeimprovements.com"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
@@ -40,30 +40,11 @@ enableEmoji = true
     # The "description" of your website. This is used in the meta data of your generated html.
     description = "Berkshire based building contractors"
 
-    # Show a menu of languages available
-    language_menu = false
-
-    # Show also a language menu item for the current language, if false only
-    # show the remaining languages
-    show_current_lang = false
-
-    # A "copyright"-line to be added at the bottom of the page.
-    # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+    # Copyright and company notice, for the footer
     copyright = "© Hayden Home Improvements<br>Hayden Home Improvements Ltd, a company registered in England and Wales, No. 13453802<br>62 Bartholomew Street, Newbury, Berkshire, RG14 7BE."
-
-    # This theme will, by default, inject a design-by-line at the bottom of the page.
-    # You can turn it off, but we would really appreciate if you don’t :-)
-    hidedesignbyline = true
-
-    # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
-    invertSectionColors = false
     
     # Options used for automatic image generation. see: https://gohugo.io/content-management/image-processing/
     image_options = "webp q90 lanczos photo"
-
-    # Use "page_title | site_title" for <title> tags
-    # e.g. <title>Legal | Jane Doe - Nutrition Coach & Chef Consultant</title>
-    combine_page_and_site_title = false
 
     [params.meta]
         keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
