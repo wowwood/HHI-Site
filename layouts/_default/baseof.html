@@ -1,0 +1,18 @@
+<!doctype html>
+{{- $theme := .Params.theme | default .Site.Params.defaultTheme }}
+<html class="{{- if (eq $theme "light") -}}light{{- else if (eq $theme "dark") }}dark{{ end }}" lang="{{- site.LanguageCode | default "en" -}}">
+  {{ partial "head.html" . }}
+  {{ with .Parent }}
+  {{ else }}
+    <!-- custom CSS for homepage only -->
+    {{ $styles := resources.Get "css/custom-homepage.css" | minify }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}">
+  {{ end }}
+  <body>
+    {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ block "footer" . }}{{ partialCached "footer.html" . }}{{ end }}
+  </body>
+</html>
