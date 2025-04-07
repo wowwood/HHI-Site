@@ -1,0 +1,28 @@
+<footer>
+  <!-- Contact icons -->
+  <section class="icons">
+    {{ range .Site.Params.contacts }}
+      <a href="{{ .url | safeURL }}" aria-label='{{ .label }}'><i class="fa fa-lg {{ .icon }}"></i></a>
+    {{ end }}
+  </section>
+  <!-- Copyright -->
+  {{ with .Site.Params.copyright }}
+    <section class="copyright">{{ . | safeHTML }}</section>
+  {{ end }}
+  <!-- Version -->
+  {{ if ne .Params.enableGitInfo false }}
+    {{- if $.GitInfo -}}
+    <section>
+     version: {{ .Lastmod.Format "2006-01-02" }} | #{{ .GitInfo.AbbreviatedHash }}
+    </section>
+    {{- end -}}
+  {{ end }}
+  <!-- Links (unused) -->
+  <section>
+    {{ range .Site.Menus.footer }}
+      <a {{ with .Params.rel -}}rel="{{ . }}"{{ end -}} href="{{ .URL }}">
+        {{ .Name }}
+      </a>
+    {{ end }}
+  </section>
+</footer>

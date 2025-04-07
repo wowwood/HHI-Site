@@ -2,6 +2,10 @@
 {{ $styles := resources.Get "css/fork-awesome.css" | minify }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
 
+<!-- custom CSS -->
+{{ $styles := resources.Get "css/custom.css" | minify }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}">
+
 <!-- HHI Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
