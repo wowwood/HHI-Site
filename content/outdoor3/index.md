@@ -1,5 +1,6 @@
 ---
 title: Complete garden fencing and landscaping
+weight: 50
 sort_by: Params.weight
 resources:
   - src: outdoor3-work-1.jpeg

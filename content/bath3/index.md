@@ -1,5 +1,6 @@
 ---
 title: Sleek bathroom in limited space
+weight: 200
 sort_by: Params.weight
 resources:
   - src: bath3-done-1.jpeg

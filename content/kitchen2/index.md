@@ -1,5 +1,6 @@
 ---
 title: A basic modern kitchen
+weight: 100
 sort_by: Params.weight
 resources:
   - src: kitchen2-work-1.jpeg

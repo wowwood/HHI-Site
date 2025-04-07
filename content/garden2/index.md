@@ -1,5 +1,6 @@
 ---
 title: Simple garden steps
+weight: 220
 sort_by: Params.weight
 resources:
   - src: garden2-done-1.jpeg

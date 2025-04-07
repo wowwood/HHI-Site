@@ -1,5 +1,6 @@
 ---
 title: Kitchen remodel and redesign
+weight: 40
 sort_by: Params.weight
 resources:
   - src: kitchen1-work-1.jpeg

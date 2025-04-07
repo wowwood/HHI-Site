@@ -1,5 +1,6 @@
 ---
 title: An outbuilding designed to fit available space
+weight: 170
 sort_by: Params.weight
 resources:
   - src: outbuilding3-work-1.jpeg

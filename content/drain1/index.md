@@ -1,5 +1,6 @@
 ---
 title: Upgrading an outdoor drain
+weight: 230
 sort_by: Params.weight
 resources:
   - src: drain1-work-1.jpeg

@@ -1,5 +1,6 @@
 ---
 title: Adding an extension
+weight: 80
 sort_by: Params.weight
 resources:
   - src: extension1-work-1.jpeg

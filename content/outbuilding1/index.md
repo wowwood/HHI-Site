@@ -1,5 +1,6 @@
 ---
 title: A new outbuilding
+weight: 150
 sort_by: Params.weight
 resources:
   - src: outbuilding1-work-1.jpeg

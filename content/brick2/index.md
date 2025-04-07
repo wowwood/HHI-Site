@@ -1,5 +1,6 @@
 ---
 title: EV charger installation on a brick wall
+weight: 110
 sort_by: Params.weight
 resources:
   - src: brick2-work-3.jpeg

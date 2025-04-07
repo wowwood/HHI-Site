@@ -1,5 +1,6 @@
 ---
 title: A simple wooden shed
+weight: 90
 sort_by: Params.weight
 resources:
   - src: outbuilding2-work-1.jpeg

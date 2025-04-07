@@ -1,5 +1,6 @@
 ---
 title: Outdoor landscaping
+weight: 210
 sort_by: Params.weight
 resources:
   - src: outdoor2-work-1.jpeg

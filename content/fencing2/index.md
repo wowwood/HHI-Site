@@ -1,5 +1,6 @@
 ---
 title: Wooden fence replacement
+weight: 250
 sort_by: Params.weight
 resources:
   - src: fencing2-work-1.jpeg

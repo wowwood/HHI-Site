@@ -1,5 +1,6 @@
 ---
 title: Bathroom redesign
+weight: 190
 sort_by: Params.weight
 resources:
   - src: bath2-work-1.jpeg

@@ -1,5 +1,6 @@
 ---
 title: Loft transformed into a living space
+weight: 20
 sort_by: Params.weight
 resources:
   - src: loft1-work-1.jpeg

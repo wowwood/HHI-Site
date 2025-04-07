@@ -1,5 +1,6 @@
 ---
 title: Revitalized front garden
+weight: 70
 sort_by: Params.weight
 resources:
   - src: outdoor1-work-1.jpeg

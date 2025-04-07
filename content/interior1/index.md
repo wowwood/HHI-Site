@@ -1,5 +1,6 @@
 ---
 title: Interior redesign with new floors and walls
+weight: 120
 sort_by: Params.weight
 resources:
   - src: interior1-work-1.jpeg

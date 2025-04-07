@@ -1,5 +1,6 @@
 ---
 title: Complete garden transformation with an outdoor bar
+weight: 10
 sort_by: Params.weight
 resources:
   - src: garden1-work-1.jpeg

@@ -1,5 +1,6 @@
 ---
 title: New garage and outbuilding
+weight: 30
 sort_by: Params.weight
 resources:
   - src: garage1-work-1.jpeg

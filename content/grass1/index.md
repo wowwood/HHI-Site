@@ -1,5 +1,6 @@
 ---
 title: Lawn replanting
+weight: 240
 sort_by: Params.weight
 resources:
   - src: grass1-work-1.jpeg

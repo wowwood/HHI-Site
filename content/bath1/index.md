@@ -1,5 +1,6 @@
 ---
 title: A modern bathroom design
+weight: 60
 sort_by: Params.weight
 resources:
   - src: bath1-work-1.jpeg

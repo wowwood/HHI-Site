@@ -1,5 +1,6 @@
 ---
 title: Living room wall panelling
+weight: 160
 sort_by: Params.weight
 resources:
   - src: interior2-work-1.jpeg
