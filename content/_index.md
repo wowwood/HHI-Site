@@ -1,7 +1,9 @@
 ---
-title: Hugo Gallery
+layout: page
+title: Home
 menus:
   main:
-    name: Home
     weight: -1
 ---
+
+Homepage!
