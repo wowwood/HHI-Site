@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Gallery
+title: Photo Gallery
 menu:
   main:
     weight: 10
