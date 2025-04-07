@@ -3,9 +3,6 @@ baseURL = "https://example.com"
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
-# defaultContentLanguage = "en-gb"
-
-# The name of this wonderful theme ;-).
 theme = "gallery"
 
 # The browser tab name
@@ -82,25 +79,25 @@ enableEmoji = true
         label = "Freephone"
         value = "+44 (0)800 9871 871"
         url = "tel:+44800 9871 871"
-        icon = "fa fa-phone"
+        icon = "fa-phone"
 
     [[params.contacts]]
         label = "Mobile"
         value = "+44 (0)7817 220 867"
         url = "tel:+447817 220867"
-        icon = "fa fa-mobile"
+        icon = "fa-mobile"
 
     [[params.contacts]]
         label = "Email"
         value = "info@haydenhomeimprovements.com"
         url = "mailto:info@haydenhomeimprovements.com"
-        icon = "fa fa-envelope"
+        icon = "fa-envelope"
 
     [[params.contacts]]
         label = "Facebook"
         value = "Hayden Home Improvements"
         url = "https://www.facebook.com/people/Hayden-Home-Improvements-LTD/100094528309009/"
-        icon = "fa fa-facebook"
+        icon = "fa-facebook"
 
     # Add additional contacts here!
     # [[params.contacts]]
@@ -108,16 +105,3 @@ enableEmoji = true
     #     value = ""
     #     url = ""
     #     icon = ""
-
-# Define additional languages
-# [languages]
-#    [languages.en-gb]
-#     weight = 10
-#     languageName = "English"
-#     contentDir = "content/en"
-
-#  [languages.de]
-#    title = "Erika Musterfrau - Ernährungshilfe & Kochberatung"
-#    weight = 20
-#    contentDir = "content/de"
-#    languageName = "Deutsch"

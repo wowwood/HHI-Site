@@ -1,0 +1,2 @@
+{{ $styles := resources.Get "css/fork-awesome.css" | minify }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}">

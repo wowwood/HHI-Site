@@ -1,0 +1,5 @@
+<ul class="fa-ul">
+    {{ range .Site.Params.contacts }}
+        <li><span class="fa-li"><i class="fa {{ .icon }}"></i></span>&nbsp;<a href="{{ .url | safeURL }}">{{ .value }}</a></li>
+    {{ end }}
+</ul>
