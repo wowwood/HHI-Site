@@ -1,10 +1,6 @@
 ---
 layout: homepage
 title: Home
-menus:
-  main:
-    weight: -1
-
 header_logo: "images/hhi-logo-vector.svg"
 ---
 

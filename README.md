@@ -81,9 +81,11 @@ This is the template for the actual homepage. It works in conjunction with the M
 
 It contains the main "galleries" section copied from the theme's `home.html`.
 
-### `layouts/_default/baseof.html`
+### `layouts/_default/header.html`
 
-This is the root of the HTML document. It was copied from the theme's version, but the entire header and menu section has been deleted.
+This was originally copied from the theme's version, but it has been modified to never show a hamburger menu, and it only displays on gallery album pages (where it shows a "<-" back button) and doesn't display on the homepage.
+
+This is the root of the HTML document. It was copied from the theme's version, but the header is only displayed if 
 
 ### `layouts/partials/footer.html`
 
