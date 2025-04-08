@@ -79,10 +79,6 @@ resources:
 
 ## Why does each layout customization exist?
 
-### `layouts/_default/baseof.html`
-
-This was modified to load `css/custom-homepage.css` on the homepage only, and not on the gallery or about pages.
-
 ### `layouts/_default/gallery.html`
 
 This was copied from the theme's `home.html` and modified to reference `.Site.Pages` instead of just `.Pages`. This is a workaround which is needed because the gallery isn't the homepage anymore.
@@ -97,7 +93,7 @@ The footer has been completely redone in order to add contact icons and the comp
 
 ### `layouts/partials/head-custom.html`
 
-This loads global custom CSS, ForkAwesome icons, and custom fonts.
+This loads custom CSS, ForkAwesome icons, and custom fonts. It also contains additional favicon metadata.
 
 ### `layouts/partials/header.html`
 

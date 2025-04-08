@@ -5,6 +5,12 @@
 <!-- custom CSS -->
 {{ $styles := resources.Get "css/custom.css" | minify }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
+{{ with .Parent }}
+{{ else }}
+  <!-- custom CSS for homepage only -->
+  {{ $styles := resources.Get "css/custom-homepage.css" | minify }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}">
+{{ end }}
 
 <!-- HHI Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
