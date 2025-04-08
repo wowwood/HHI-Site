@@ -1,4 +1,4 @@
-<ul class="fa-ul">
+<ul class="fa-ul contacts-list">
     {{ range .Site.Params.contacts }}
         <li><span class="fa-li"><i class="fa {{ .icon }}"></i></span>&nbsp;<a href="{{ .url | safeURL }}">{{ .value }}</a></li>
     {{ end }}
