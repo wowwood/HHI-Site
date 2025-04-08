@@ -11,9 +11,7 @@ git submodule update
 
 ## How to edit the homepage
 
-The text of the homepage is in `content/_index.md`, but the HTML (for the logo) is in `layouts/_default/homepage.html`.
-
-CSS specific to the homepage is in `css/custom-homepage.css`.
+The text of the homepage is in `content/_index.md`, but the HTML is in `layouts/_default/homepage.html`. The CSS is in `css/custom.css`.
 
 ## How to edit the contacts
 
