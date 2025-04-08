@@ -10,12 +10,25 @@ body {
 }
 
 /* logo and branding */
-.logo_hp {
+.logo_hp::before {
+    /* background image */
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: -5%;
+    bottom: 0;
+    left: -5%;
+    width: 110%;
+
     background-image: url('/images/garden-drone.jpeg');
     background-size: cover;
-
+    filter: blur(8px);
+}
+.logo_hp {
     padding-top: 2rem;
     padding-bottom: 2rem;
+
+    position: relative;
 
     text-align: center;
 
@@ -27,7 +40,6 @@ body {
     h1 {
         font-family: "Bebas Neue", sans-serif;
         font-size: 3.125rem;
-        letter-spacing: 0px;
     }
     h2 {
         font-family: "Afacad Flux", sans-serif;
@@ -40,6 +52,7 @@ body {
 
     img {
         max-height: 6rem;
+        filter: drop-shadow(#d0d0d0 0 0 3px);
     }
 }
 
