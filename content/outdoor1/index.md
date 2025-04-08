@@ -1,5 +1,5 @@
 ---
-title: Revitalized front garden
+title: Revitalized front garden with new grass
 weight: 70
 sort_by: Params.weight
 resources:

@@ -1,5 +1,5 @@
 ---
-title: A modern bathroom design
+title: Warm, modern bathroom design
 weight: 60
 sort_by: Params.weight
 resources:

@@ -1,5 +1,5 @@
 ---
-title: Simple garden steps
+title: Garden steps
 weight: 220
 sort_by: Params.weight
 resources:

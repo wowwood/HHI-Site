@@ -1,5 +1,5 @@
 ---
-title: A new outbuilding
+title: Outbuilding matching the existing style
 weight: 150
 sort_by: Params.weight
 resources:

@@ -1,12 +1,11 @@
 ---
-title: Living room wall panelling
+title: Living room wall panelling and wallpaper
 weight: 160
 sort_by: Params.weight
 resources:
   - src: interior2-work-1.jpeg
     params:
       weight: 0
-      cover: true
   - src: interior2-work-2.jpeg
     params:
       weight: 1
@@ -43,6 +42,7 @@ resources:
   - src: interior2-done-6.jpeg
     params:
       weight: 12
+      cover: true
   - src: interior2-done-7.jpeg
     params:
       weight: 13

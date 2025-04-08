@@ -1,5 +1,5 @@
 ---
-title: An outbuilding designed to fit available space
+title: Outbuilding designed around available space
 weight: 170
 sort_by: Params.weight
 resources:

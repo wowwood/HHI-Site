@@ -1,5 +1,5 @@
 ---
-title: Sleek bathroom in limited space
+title: Sleek bathroom despite limited space
 weight: 200
 sort_by: Params.weight
 resources:

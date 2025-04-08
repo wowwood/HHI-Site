@@ -1,5 +1,5 @@
 ---
-title: A basic modern kitchen
+title: Basic modern kitchen
 weight: 100
 sort_by: Params.weight
 resources:

@@ -1,5 +1,5 @@
 ---
-title: Complete garden fencing and landscaping
+title: Wooden fencing and landscaping
 weight: 50
 sort_by: Params.weight
 resources:
