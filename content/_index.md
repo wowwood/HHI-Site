@@ -14,8 +14,6 @@ Home improvement company covering West Berkshire, including: Newbury, Thatcham a
 
 With over 30 years of professional experince, we have a wide range of skills to bring to the table. Providing a personal service to every customer is our top priority.
 
-View examples of our work in our [photo gallery](gallery).
-
 We offer a number of services, including:
 * Gardens & Outdoor
 * Home Office
@@ -28,4 +26,6 @@ We offer a number of services, including:
 * Living Areas
 * Carpentry
 
-Feel free to [contact us](contact)!
+Please get in touch to discuss your project, big or small!
+
+{{<contact_list>}}

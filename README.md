@@ -1,6 +1,6 @@
 # HHI Gallery Website
 
-This website is built with [Hugo](https://gohugo.io/) and uses the [Gallery](https://themes.gohugo.io/themes/hugo-theme-gallery/) theme
+This website is built with [Hugo](https://gohugo.io/) and uses the [Gallery](https://themes.gohugo.io/themes/hugo-theme-gallery/) theme. However, the homepage has been entirely redesigned and customized. See below for details.
 
 ## Did you update git submodules?
 
@@ -17,9 +17,7 @@ CSS specific to the homepage is in `css/custom-homepage.css`.
 
 ## How to edit the contacts
 
-The data for the contact information is in `hugo.toml`.
-
-The Markdown for the rest of the contact page (other than the actual contacts) is in `content/contact.md`.
+The data for the contact information is in `hugo.toml`. This is probably where you would need to make changes.
 
 The HTML template to generate the list is `layouts/shortcodes/contact_list.html`.
 
@@ -29,7 +27,7 @@ Create a directory `content/new-thing` and put image files in there. Create `con
 
 Feel free to copy an existing example.
 
-## Sorting albums on the gallery page
+## Sorting albums in the gallery
 
 The "toplevel" `weight` parameter controls this:
 
@@ -79,13 +77,15 @@ resources:
 
 ## Why does each layout customization exist?
 
-### `layouts/_default/gallery.html`
-
-This was copied from the theme's `home.html` and modified to reference `.Site.Pages` instead of just `.Pages`. This is a workaround which is needed because the gallery isn't the homepage anymore.
-
 ### `layouts/_default/homepage.html`
 
 This is the template for the actual homepage. It works in conjunction with the Markdown text in `content/_index.md`.
+
+It contains the main "galleries" section copied from the theme's `home.html`.
+
+### `layouts/_default/baseof.html`
+
+This is the root of the HTML document. It was copied from the theme's version, but the entire header and menu section has been deleted.
 
 ### `layouts/partials/footer.html`
 
@@ -94,10 +94,6 @@ The footer has been completely redone in order to add contact icons and the comp
 ### `layouts/partials/head-custom.html`
 
 This loads custom CSS, ForkAwesome icons, and custom fonts. It also contains additional favicon metadata.
-
-### `layouts/partials/header.html`
-
-This was copied from the theme's `header.html`. It was modified so that the site title has been replaced with a `fa-home` icon.
 
 ### `layouts/shortcodes/contact_list.html`
 

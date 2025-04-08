@@ -9,4 +9,10 @@
   <section class="prose">
     {{ .Content }}
   </section>
+
+  <section class="galleries">
+    {{ range where .Site.Pages "Params.private" "ne" true }}
+      {{ partial "album-card.html" . }}
+    {{ end }}
+  </section>
 {{ end }}
