@@ -5,7 +5,7 @@ menus:
   main:
     weight: -1
 
-header_logo: "images/hhi-black-logomark.png"
+header_logo: "images/hhi-logo-vector.svg"
 ---
 
 # Hi! We're Hayden Home Improvements
