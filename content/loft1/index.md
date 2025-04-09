@@ -52,7 +52,4 @@ resources:
   - src: loft1-done-6.jpeg
     params:
       weight: 15
-  - src: loft1-done-7.jpeg
-    params:
-      weight: 16
 ---
